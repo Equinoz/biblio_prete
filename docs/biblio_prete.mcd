@@ -1,0 +1,14 @@
+:
+EMPRUNTE, 0N UTILISATEUR, 01 LIVRE: date d'emprunt, date maximale de retour
+
+UTILISATEUR: _pseudonyme, mail, mot de passe
+:::
+LIVRE: _titre, auteur, date de publication, éditeur, ISBN, durée de prêt
+
+:
+POSSEDE, 0N UTILISATEUR, 11 LIVRE
+
+::
+GENRE: _nom
+:
+CATEGORISE, 1N LIVRE, 0N GENRE

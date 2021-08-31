@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="532" height="338" view_box="0 0 532 338"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:link="http://www.w3.org/1999/xlink">\n\n<desc>Généré par Mocodo 2.3.7 le Tue, 31 Aug 2021 05:47:27</desc>
+
+<rect id="frame" x="0" y="0" width="532" height="338" fill="#f5f5f5" stroke="none" stroke-width="0"/>
+
+<!-- Association EMPRUNTE -->
+<line x1="56" y1="136" x2="250" y2="43" stroke="#bf812d" stroke-width="2"/>
+<text x="108" y="126.717644045" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<line x1="460" y1="136" x2="250" y2="43" stroke="#bf812d" stroke-width="2"/>
+<text x="371" y="121.631131669" fill="#01665e" font-family="Verdana" font-size="12">0,1</text>
+<g id="association-EMPRUNTE">
+	<path d="M 319 9 a 14 14 90 0 1 14 14 V 34 h -166 V 23 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 333 34.0 v 29 a 14 14 90 0 1 -14 14 H 181 a 14 14 90 0 1 -14 -14 V 34.0 H 166" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="167" y="9" width="166" height="68" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="167" y1="34" x2="333" y2="34" stroke="#bf812d" stroke-width="1"/>
+	<text x="216" y="26.7" fill="#000000" font-family="Verdana" font-size="12">EMPRUNTE</text>
+	<text x="174" y="51.8" fill="#000000" font-family="Verdana" font-size="12">date d'emprunt</text>
+	<text x="174" y="68.8" fill="#000000" font-family="Verdana" font-size="12">date maximale de retour</text>
+</g>
+
+<!-- Association POSSEDE -->
+<line x1="56" y1="136" x2="250" y2="229" stroke="#bf812d" stroke-width="2"/>
+<text x="108" y="154.282355955" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<line x1="460" y1="136" x2="250" y2="229" stroke="#bf812d" stroke-width="2"/>
+<text x="371" y="159.368868331" fill="#01665e" font-family="Verdana" font-size="12">1,1</text>
+<g id="association-POSSEDE">
+	<path d="M 273 204 a 14 14 90 0 1 14 14 V 229 h -74 V 218 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 287 229.0 v 11 a 14 14 90 0 1 -14 14 H 227 a 14 14 90 0 1 -14 -14 V 229.0 H 74" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="213" y="204" width="74" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="213" y1="229" x2="287" y2="229" stroke="#bf812d" stroke-width="1"/>
+	<text x="220" y="221.7" fill="#000000" font-family="Verdana" font-size="12">POSSEDE</text>
+</g>
+
+<!-- Association CATEGORISE -->
+<line x1="460" y1="136" x2="460" y2="304" stroke="#bf812d" stroke-width="2"/>
+<text x="465.0" y="221" fill="#01665e" font-family="Verdana" font-size="12">1,N</text>
+<line x1="250" y1="304" x2="460" y2="304" stroke="#bf812d" stroke-width="2"/>
+<text x="282" y="321.0" fill="#01665e" font-family="Verdana" font-size="12">0,N</text>
+<g id="association-CATEGORISE">
+	<path d="M 494 279 a 14 14 90 0 1 14 14 V 304 h -96 V 293 a 14 14 90 0 1 14 -14" fill="#dfc27d" stroke="#dfc27d" stroke-width="0"/>
+	<path d="M 508 304.0 v 11 a 14 14 90 0 1 -14 14 H 426 a 14 14 90 0 1 -14 -14 V 304.0 H 96" fill="#f6e8c3" stroke="#f6e8c3" stroke-width="0"/>
+	<rect x="412" y="279" width="96" height="50" fill="none" rx="14" stroke="#bf812d" stroke-width="2"/>
+	<line x1="412" y1="304" x2="508" y2="304" stroke="#bf812d" stroke-width="1"/>
+	<text x="419" y="296.7" fill="#000000" font-family="Verdana" font-size="12">CATEGORISE</text>
+</g>
+
+<!-- Entity GENRE -->
+<g id="entity-GENRE">
+	<g id="frame-GENRE">
+		<rect x="223" y="279" width="54" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="223" y="304.0" width="54" height="25" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="223" y="279" width="54" height="50" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="223" y1="304" x2="277" y2="304" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="228" y="296.7" fill="#000000" font-family="Verdana" font-size="12">GENRE</text>
+	<text x="228" y="321.8" fill="#000000" font-family="Verdana" font-size="12">nom</text>
+</g>
+
+<!-- Entity UTILISATEUR -->
+<g id="entity-UTILISATEUR">
+	<g id="frame-UTILISATEUR">
+		<rect x="9" y="94" width="94" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="9" y="119.0" width="94" height="59" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="9" y="94" width="94" height="84" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="9" y1="119" x2="103" y2="119" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="14" y="111.7" fill="#000000" font-family="Verdana" font-size="12">UTILISATEUR</text>
+	<text x="14" y="136.8" fill="#000000" font-family="Verdana" font-size="12">pseudonyme</text>
+	<text x="14" y="153.8" fill="#000000" font-family="Verdana" font-size="12">mail</text>
+	<text x="14" y="170.8" fill="#000000" font-family="Verdana" font-size="12">mot de passe</text>
+</g>
+
+<!-- Entity LIVRE -->
+<g id="entity-LIVRE">
+	<g id="frame-LIVRE">
+		<rect x="397" y="68" width="126" height="25" fill="#80cdc1" stroke="#80cdc1" stroke-width="0"/>
+		<rect x="397" y="93.0" width="126" height="111" fill="#c7eae5" stroke="#c7eae5" stroke-width="0"/>
+		<rect x="397" y="68" width="126" height="136" fill="none" stroke="#35978f" stroke-width="2"/>
+		<line x1="397" y1="93" x2="523" y2="93" stroke="#35978f" stroke-width="1"/>
+	</g>
+	<text x="441" y="85.7" fill="#000000" font-family="Verdana" font-size="12">LIVRE</text>
+	<text x="402" y="110.7" fill="#000000" font-family="Verdana" font-size="12">titre</text>
+	<text x="402" y="127.7" fill="#000000" font-family="Verdana" font-size="12">auteur</text>
+	<text x="402" y="144.8" fill="#000000" font-family="Verdana" font-size="12">date de publication</text>
+	<text x="402" y="161.8" fill="#000000" font-family="Verdana" font-size="12">éditeur</text>
+	<text x="402" y="178.8" fill="#000000" font-family="Verdana" font-size="12">ISBN</text>
+	<text x="402" y="195.8" fill="#000000" font-family="Verdana" font-size="12">durée de prêt</text>
+</g>
+</svg>

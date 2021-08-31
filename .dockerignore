@@ -1,0 +1,16 @@
+# Docker
+Dockefile
+docker-compose.yml
+
+# Django
+src/biblio_prete/__pycache__/
+
+# Versionning
+.git
+.gitignore
+
+# Readme
+README.md
+
+# Environment variables
+env/*.env

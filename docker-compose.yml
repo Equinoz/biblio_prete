@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    env_file:
+      - ./env/postgres.env
+    volumes:
+      - data:/var/lib/postgresql/data
+
+  server:
+    build: .
+    container_name: server
+    volumes:
+      - ./:/app
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./env/server.env
+    command: python src/manage.py runserver 0.0.0.0:8000
+    depends_on:
+      - postgres
+
+volumes:
+  data:
