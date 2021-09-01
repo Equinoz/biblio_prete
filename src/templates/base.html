@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		{% block title %}
+		{% endblock %}
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	</head>
+
+	<body>
+		<nav>
+			<h1>Biblio-prête</h1>
+			<p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et eros et orci maximus fermentum. Donec imperdiet, eros dignissim porta eleifend, enim nisi interdum elit, eu auctor nulla quam sed urna.</p>
+			<ul>
+				<li><a href="/accueil">Accueil</a></li>
+				<li><a href="#">Rechercher un livre</a></li>
+				<li><a href="#">Proposer un livre en prêt</a></li>
+			</ul>
+		</nav>
+
+		<main>
+			<header>
+				<p><a href="#">Connexion</a> / <a href="/inscription">Inscription</a></p>
+			</header>
+
+			<section>
+				{% block content %}
+				{% endblock %}
+			</section>
+
+			<footer>
+				<ul>
+					<li><a href="#">Nous contacter</a></li>
+					<li><a href="#">Mentions légales</a></li>
+				</ul>
+			</footer>
+		</main>
+	</body>
+</html>

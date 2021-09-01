@@ -1,0 +1,110 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+/* #F1F1D3
+#E3EBD0
+#C7DDC5
+#9FCDA8
+#7DC2A5 */
+
+/* General style */
+
+body {
+	background-color: #E3EBD0;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	color: #0e2612;
+}
+
+a {
+	color: #0e2612;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	font-style: italic;
+}
+
+/* Navigation */
+
+nav {
+	background-color: #9FCDA8;
+	width: 20%;
+	border-right: solid 1px #76947c;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px;
+	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #014a0c;
+}
+
+#intro {
+	margin: 25px;
+	font-size: 15px;
+	text-justify: inter-word;
+	margin-bottom: 40px;
+}
+
+nav > ul {
+	width: 85%;
+	margin: auto;
+	font-size: 22px;
+}
+
+nav > ul > li {
+	margin-bottom: 25px;
+}
+
+/* Main section */
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+}
+
+/* Header, footer */
+
+header, footer {
+	background-color: #C7DDC5;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 90px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #a8bda6; 
+}
+
+header p {
+	font-size: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	border-top: 1px solid #a8bda6; 
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* Section */
+
+section {
+	height: 100%;
+}

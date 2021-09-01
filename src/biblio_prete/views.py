@@ -11,6 +11,9 @@ class CustomSignupForm(UserCreationForm):
 		fields = UserCreationForm.Meta.fields
 
 
+def home(req):
+	return render(req, "biblio_prete/home.html")
+
 def signup(req):
 	context = {}
 

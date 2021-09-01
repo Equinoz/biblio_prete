@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from biblio_prete.views import signup
+from biblio_prete.views import signup, home
 
 urlpatterns = [
     path('gestion/', admin.site.urls),
-    path('biblio_prete/inscription/', signup, name="signup")
+    path('accueil/', home, name="home"),
+    path('inscription/', signup, name="signup")
 ]

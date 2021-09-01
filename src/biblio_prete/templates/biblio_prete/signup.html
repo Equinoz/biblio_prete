@@ -1,23 +1,21 @@
-<!DOCTYPE>
-<html lang="fr">
-	<head>
-		<meta charset="UTF-8">
-		<title>Création d'un nouveau compte utilisateur</title>
-	</head>
+{% extends 'base.html' %}
 
-	<body>
-		<form method="POST">
-			{% csrf_token %}
+{% block title %}
+	<title>Biblio-prête - Création d'un nouveau compte utilisateur</title>
+{% endblock %}
 
-			{{ form.as_p }}
+{% block content %}
+	<form method="POST">
+		{% csrf_token %}
 
-			{% for error, message in errors.items %}
-			<h3 style="color: red;">
-				{{ message }}
-			</h3>
-			{% endfor %}
+		{{ form.as_p }}
 
-			<input type="submit" value="S'inscrire">
-		</form>
-	</body>
-</html>
+		{% for error, message in errors.items %}
+		<h3 style="color: red;">
+			{{ message }}
+		</h3>
+		{% endfor %}
+
+		<input type="submit" value="S'inscrire">
+	</form>
+{% endblock %}
