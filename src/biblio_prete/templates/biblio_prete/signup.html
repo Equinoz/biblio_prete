@@ -11,6 +11,12 @@
 
 			{{ form.as_p }}
 
+			{% for error, message in errors.items %}
+			<h3 style="color: red;">
+				{{ message }}
+			</h3>
+			{% endfor %}
+
 			<input type="submit" value="S'inscrire">
 		</form>
 	</body>

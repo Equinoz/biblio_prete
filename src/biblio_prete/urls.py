@@ -19,6 +19,6 @@ from django.urls import path
 from biblio_prete.views import signup
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('biblio_pret/inscription/', signup, name="signup")
+    path('gestion/', admin.site.urls),
+    path('biblio_prete/inscription/', signup, name="signup")
 ]
